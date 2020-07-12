@@ -5,21 +5,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>trap Portfolio 2</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" href="/assets/css/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
 </head>
 <body>
 
-    <div class="container">
+    
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Joshua Christensen</a>
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="#">About Me</a></li>
-                  <li class="breadcrumb-item"><a href="#" aria-current="page">Contact</a></li>
-                  <li class="breadcrumb-item"><a href="#"></a>Portfolio</li>
-                </ol>
-            </nav>
+            <span class="navbar-brand mb-0 h1" style="margin-left: 135px;">Joshua Christensen</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About Me</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+              </ul>
+            </div>
         </nav>
-      </div>
+
+
+    
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-2">
+                      <h1>Contact</h1>
+                  </div>
+                </div>
+    
+                <form>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="firstName">First Name</label>
+                      <input type="firstName" class="form-control" id="firstName">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="lastName">Last Name</label>
+                      <input type="lastName" class="form-control" id="lastName">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputEmail4">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputPassword4">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress2">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputCity">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="inputState">State</label>
+                      <select id="inputState" class="form-control" placeholder="Choose...">
+                        <option selected>Choose...</option>
+                        <option>ALABAMA</option>
+                        <option>ALASKA</option>
+                        <option>AMERICAN SAMOA</option>
+                        <option>ARIZONA</option>
+                        <option>CALIFORNIA</option>
+                        <option>COLORADO</option>
+                        <option>CONNECTICUT</option>
+                        <option>DELAWARE</option>
+                        <option>DISTRICT OF COLUMBIA</option>
+                        <option>FLORIDA</option>
+                        <option>GEORGIA</option>
+                        <option>GUAM</option>
+                        <option>HAWAII</option>
+                        <option>IDAHO</option>
+                        <option>ILLINOIS</option>
+                        <option>INDIANA</option>
+                        <option>IOWA</option>
+                        <option>KANSAS</option>
+                        <option>KENTUCKY</option>
+                        <option>LOUISIANA</option>
+                        <option>MAINE</option>
+                        <option>MARYLAND</option>
+                        <option>MASSACHUSETTS</option>
+                        <option>MICHIGAN</option>
+                        <option>MINNESOTA</option>
+                        <option>MISSISSIPPI</option>
+                        <option>MISSOURI</option>
+                        <option>MONTANA</option>
+                        <option>NEBRASKA</option>
+                        <option>NEVADA</option>
+                        <option>NEW HAMPSHIRE</option>
+                        <option>NEW JERSEY</option>
+                        <option>NEW MEXICO</option>
+                        <option>NEW YORK</option>
+                        <option>NORTH CAROLINA</option>
+                        <option>NORTH DAKOTA</option>
+                        <option>NORTHERN MARIANA IS</option>
+                        <option>OHIO</option>
+                        <option>OKLAHOMA</option>
+                        <option>OREGON</option>
+                        <option>PENNSYLVANIA</option>
+                        <option>PUERTO RICO</option>
+                        <option>RHODE ISLAND</option>
+                        <option>SOUTH CAROLINA</option>
+                        <option>SOUTH DAKOTA</option>
+                        <option>TENNESSEE</option>
+                        <option>TEXAS</option>
+                        <option>UTAH</option>
+                        <option>VERMONT</option>
+                        <option>VIRGINIA</option>
+                        <option>VIRGIN ISLANDS</option>
+                        <option>WASHINGTON</option>
+                        <option>WEST VIRGINIA</option>
+                        <option>WISCONSIN</option>
+                        <option>WYOMING</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                      <label for="inputZip">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+    
+                </div>
+            </div>
+        </div>
+    
+
+      
     
 </body>
 </html>
